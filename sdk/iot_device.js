@@ -19,9 +19,9 @@ class IotDevice extends EventEmitter {
         this.secret = secret
         this.username = `${this.productName}/${this.deviceName}`
         if (clientID != null) {
-            this.clientIdentifier = `${this.username}/${clientID}`
+            this.clientIdentifier = `${this.productName}-${this.deviceName}-${clientID}`
         } else {
-            this.clientIdentifier = this.username
+            this.clientIdentifier = `${this.productName}-${this.deviceName}`
         }
         if (storePath != null) {
             this.manager = levelStore(storePath);

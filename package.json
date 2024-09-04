@@ -5,10 +5,9 @@
     "mqtt": "^2.18.8",
     "jsonwebtoken": "^8.5.1",
     "bson": "^4.0.2",
-    "mqtt-level-store": "^2.2.0",
+    "mqtt-level-store": "^3.1.0",
     "node-persist": "2.1.0",
     "path-to-regexp": "^3.0.0",
-    "level": "^5.0.1",
     "coap": "^0.23.1"
   },
   "devDependencies": {
